@@ -28,6 +28,7 @@ const myThemes = [
 ]
 
 const ThemePicker = ({ theme, setTheme }) => {
+  if (theme) {
   return (
     <div>
       {myThemes.map((item, index) => {
@@ -47,6 +48,8 @@ const ThemePicker = ({ theme, setTheme }) => {
         )}
     </div>
   );
+  }
+  return null;
 };
 
 export default ThemePicker;

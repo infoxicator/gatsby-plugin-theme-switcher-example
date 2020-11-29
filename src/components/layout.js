@@ -16,7 +16,7 @@ const Layout = ({ location, title, children }) => {
         <Link to="/">{title}</Link>
       </h1>
       <div style={{ position: "absolute", top: 0, right: 0 }}>
-      <ThemeSwitcher theme={theme} setTheme={switchTheme} />
+        <ThemeSwitcher theme={theme} setTheme={switchTheme} />
       </div>
       </div>
     )

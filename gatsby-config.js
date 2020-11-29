@@ -78,7 +78,6 @@ module.exports = {
       options: {
         defaultDarkTheme: 'theme-twitter',
         defaultLightTheme: 'theme-midnightgreen',
-        themeStorageKey: 'my-key',
       }
     }
   ],
